@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
-    "start":"nodemon server/index.js",
+    "start": "nodemon server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/gupta-rahul-02/real-estate#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.3"
   }
 }
