@@ -7,4 +7,4 @@ router.post('/signup',signnUp)
 router.post('/signin',signIn)
 router.post('/google',google)
 router.get('/signout',signOut)
-export default router
+export default router 
