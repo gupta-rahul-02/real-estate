@@ -46,6 +46,7 @@ function CreateListing() {
             ...formData,
             imageUrls: formData.imageUrls.concat(urls),
           });
+          console.log(formData)
           setImageUploadError(false);
           setUploading(false);
         })
@@ -147,7 +148,7 @@ function CreateListing() {
       if (data.success === false) {
         setError(data.message);
       }
-      navigate(`/listing/${data._id}`)
+      navigate(`/listings/${data._id}`)
     } catch (error) {
       setError(error.message);
       setLoading(false);
